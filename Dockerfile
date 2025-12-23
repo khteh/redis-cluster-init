@@ -1,5 +1,5 @@
 FROM redis:latest
-MAINTAINER Kok How, Teh <funcoolgeeek@gmail.com>
+LABEL org.opencontainers.image.authors="Kok How, Teh <funcoolgeeek@gmail.com>"
 RUN apt update -y --fix-missing
 RUN apt upgrade -y
 RUN apt install -y apt-transport-https sudo curl gnupg2
